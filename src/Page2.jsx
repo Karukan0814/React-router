@@ -4,6 +4,8 @@ export const Page2 = () => {
     <div>
       <h1>Page2ページ</h1>
       <Link to="/page2/100">UrlPrameter</Link>
+      <br />
+      <Link to="/page2/100?name=hogehoge">Query</Link>
     </div>
   );
 };
